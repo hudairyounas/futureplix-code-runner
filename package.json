@@ -1,0 +1,61 @@
+{
+  "name": "futureplix-code-runner",
+  "displayName": "FuturePlix Code Runner",
+  "description": "A fast and lightweight code runner built by FuturePlix to help students and developers execute code instantly inside their editor.",
+  "version": "0.0.1",
+  "publisher": "futureplix",
+  "author": "Hudair (Founder of FuturePlix)",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hudairyounis/futureplix-code-runner"
+  },
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "futureplix-runner.run",
+        "title": "FuturePlix: Run Code",
+        "icon": "$(play)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "futureplix-runner.run",
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "futureplix-runner.run",
+          "group": "navigation"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "16.x",
+    "typescript": "^5.1.3",
+    "eslint": "^8.41.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8"
+  }
+}
