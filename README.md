@@ -1,32 +1,116 @@
-# FuturePlix Code Runner 🚀
+# 🚀 FuturePlix Code Runner
 
-**FuturePlix Code Runner** is a powerful, lightweight VS Code extension built by **FuturePlix** that lets you run code instantly with a single click or keyboard shortcut. Designed for speed, especially for students and beginners.
-
-## ✨ Features
-
-- **Instant Execution**: Run the active file immediately in the integrated terminal.
-- **Smart Detection**: Automatically detects the programming language (JS, Python, C).
-- **Integrated Terminal**: Output appears in a dedicated "FuturePlix Output" terminal.
-- **Quick UI**: Access via the dedicated ▶ button in the editor title bar or the command palette.
-- **Keyboard Power**: Use `Ctrl + Alt + R` to run code without touching your mouse.
-- **Branded for You**: A professional tool built by **Hudair** for the FuturePlix community.
-
-## 🛠 Supported Languages
-
-- **JavaScript** (via Node.js)
-- **Python** (via `python` command)
-- **C** (via GCC compiler)
-
-## 🚀 Getting Started
-
-1. Open a file in a supported language.
-2. Click the **Run ▶** button in the top right of the editor.
-3. Or press `Ctrl + Alt + R`.
-4. Your output will appear instantly in the terminal!
-
-## 📘 Documentation
-
-For a deep dive into how it works, check out [HOW_IT_WORKS.md](./HOW_IT_WORKS.md).
+> Run your code instantly inside your editor ⚡
+> Built with ❤️ by **Hudair (FuturePlix)**
 
 ---
-*Built with speed in mind. Part of the Antigravity developer tools suite.*
+
+## 🎯 Overview
+
+**FuturePlix Code Runner** is a fast, lightweight, and beginner-friendly extension that allows you to run your code directly inside your editor without switching between multiple tools.
+
+Perfect for students and developers who want a **simple and efficient coding experience**.
+
+---
+
+## ⚡ Features
+
+* ▶️ Run code instantly with one click
+* 🧠 Automatic language detection
+* 💻 Runs code in integrated terminal
+* 🔥 Beginner-friendly & lightweight
+* 🚀 Fast execution
+
+---
+
+## 🧑‍💻 Supported Languages
+
+* JavaScript (Node.js)
+* Python
+* C (GCC)
+
+---
+
+## 🎮 How to Use
+
+### 1. Open any code file
+
+### 2. Press:
+
+```
+Ctrl + Alt + R
+```
+
+OR
+
+👉 Click **Run ▶ button**
+
+---
+
+## 📦 Requirements
+
+Make sure you have installed:
+
+* Node.js (for JavaScript)
+* Python
+* GCC (for C programs)
+
+---
+
+## 🖥️ Example
+
+Run a JavaScript file:
+
+```js
+console.log("Hello FuturePlix 🚀");
+```
+
+👉 Output will appear in terminal instantly
+
+---
+
+## 🏢 About FuturePlix
+
+**FuturePlix** is a modern learning platform focused on:
+
+* Web Development
+* Programming
+* Practical Skills
+
+We build tools to make learning **simple, fast, and powerful**.
+
+---
+
+## 👨‍💻 Author
+
+**Hudair**
+Founder of FuturePlix
+
+---
+
+## 📢 Support & Feedback
+
+If you like this extension:
+
+⭐ Give it a rating
+💬 Share feedback
+🚀 Recommend to others
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 🔥 Future Updates
+
+* More language support
+* Custom run configurations
+* UI improvements
+* AI-powered code assistant (coming soon 👀)
+
+---
+
+> 💡 Built for students. Powered by FuturePlix.
