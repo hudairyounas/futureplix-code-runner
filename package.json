@@ -2,7 +2,7 @@
   "name": "futureplix-code-runner",
   "displayName": "FuturePlix Code Runner",
   "description": "A fast and lightweight code runner built by FuturePlix to help students and developers execute code instantly inside their editor.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "futureplix",
   "author": "Hudair (Founder of FuturePlix)",
   "engines": {
