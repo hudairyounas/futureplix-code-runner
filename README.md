@@ -15,7 +15,9 @@ Perfect for students and developers who want a **simple and efficient coding exp
 
 ## ⚡ Features
 
-* ▶️ Run code instantly with one click
+* ▶️ Run code instantly with one click (or Status Bar button)
+* 💾 Auto-save before running
+* 🧹 Auto-clear terminal for clean output
 * 🧠 Automatic language detection
 * 💻 Runs code in integrated terminal
 * 🔥 Beginner-friendly & lightweight
@@ -28,6 +30,10 @@ Perfect for students and developers who want a **simple and efficient coding exp
 * JavaScript (Node.js)
 * Python
 * C (GCC)
+* C++ (G++)
+* Java
+* PHP
+* Go
 
 ---
 

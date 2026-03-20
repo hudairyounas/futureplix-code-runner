@@ -13,21 +13,13 @@
     "Programming Languages"
   ],
   "keywords": [
-    "c#",
-    "c++",
-    "code-runner-output",
-    "erlang",
-    "haskell",
+    "c",
+    "cpp",
     "java",
-    "javascript",
-    "keybindings",
-    "multi-root ready",
-    "perl",
     "php",
-    "powershell",
-    "python",
-    "ruby",
-    "rust"
+    "go",
+    "javascript",
+    "python"
   ],
   "repository": {
     "type": "git",
@@ -41,6 +33,11 @@
         "command": "futureplix-runner.run",
         "title": "FuturePlix: Run Code",
         "icon": "$(play)"
+      },
+      {
+         "command": "futureplix-runner.clear",
+         "title": "FuturePlix: Clear Terminal",
+         "icon": "$(trash)"
       }
     ],
     "keybindings": [
